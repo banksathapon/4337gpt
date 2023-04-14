@@ -12,11 +12,11 @@ const Hero = () => {
               EIP-4337 Guardian on ChatGPT for Social Revocery
             </h1>
             <p className="text-lg mb-8">
-              Gain exposure to NFT price gains by minting ERC20 tokens that
-              represent the floor price of your favorite NFTs. Fractionalize
-              your investment and make NFTs accessible, even on a limited
-              budget. Connect your Metamask wallet and start your journey into
-              the world of decentralized art and collectibles today!
+              Use cases: <br />
+              1. Private key lost <br />
+              2. Account compromised <br />
+              3. Transfer ownership after death <br />
+              4. Change authorized person after resignation <br />
             </p>
             <Link href="/app/wallet" className="btn btn-primary">
               Start Now
