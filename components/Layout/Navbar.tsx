@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { FC } from 'react';
 import TangibleLogo from '../Logo/TangibleLogo';
-//import Avatar from './Avatar';
+import Avatar from './Avatar';
 
 export const Navbar: FC = () => {
   return (
@@ -12,7 +12,7 @@ export const Navbar: FC = () => {
         </Link>
       </div>
       <div className="flex-none gap-2">
-        {/* <Avatar /> */}
+        <Avatar />
       </div>
     </div>
   );
