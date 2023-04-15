@@ -86,7 +86,7 @@ export default function Recovery({ user, data }: { user: User; data: any }) {
     setMessages([
       {
         role: 'assistant',
-        content: `Hi ${name}! I am 4337-GPT customer support. Our purpose is to help you, the wallet owners who lost your private key recover your account.`,
+        content: `Hi ${name}! I am 4337-GPT Account Recovery support. Our purpose is to help you, the wallet owners who lost your private key recover your account.`,
       },
     ]);
   };
@@ -99,7 +99,7 @@ export default function Recovery({ user, data }: { user: User; data: any }) {
     setMessages([
       {
         role: 'assistant',
-        content: `Hi ${name}! I am 4337-GPT customer support. Our purpose is to help you, the wallet owners who lost your private key recover your account. `,
+        content: `Hi ${name}! I am 4337-GPT Account Recovery customer support. Our purpose is to help you, the wallet owners who lost your private key recover your account. `,
       },
     ]);
   }, [name]);
@@ -116,7 +116,7 @@ export default function Recovery({ user, data }: { user: User; data: any }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col h-screen">
+      <div data-theme="dark" className="flex flex-col h-screen">
         <Navbar />
 
         <div className="flex-1 overflow-auto sm:px-10 pb-4 sm:pb-10">

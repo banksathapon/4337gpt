@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="lg:flex lg:items-center">
           <div className="lg:w-1/2">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              EIP-4337 Guardian on ChatGPT for Social Revocery
+              EIP-4337 Account Recovery on ChatGPT
             </h1>
             <p className="text-lg mb-8">
               Use cases: <br />
@@ -18,7 +18,7 @@ const Hero = () => {
               3. Transfer ownership after death <br />
               4. Change authorized person after resignation <br />
             </p>
-            <Link href="/app/wallet" className="btn btn-primary">
+            <Link href="/app/recovery" className="btn btn-primary">
               Start Now
             </Link>
           </div>
