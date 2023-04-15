@@ -116,7 +116,7 @@ export default function Recovery({ user, data }: { user: User; data: any }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col h-screen">
+      <div data-theme="dark" className="flex flex-col h-screen">
         <Navbar />
 
         <div className="flex-1 overflow-auto sm:px-10 pb-4 sm:pb-10">

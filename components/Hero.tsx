@@ -18,7 +18,7 @@ const Hero = () => {
               3. Transfer ownership after death <br />
               4. Change authorized person after resignation <br />
             </p>
-            <Link href="/app/wallet" className="btn btn-primary">
+            <Link href="/app/recovery" className="btn btn-primary">
               Start Now
             </Link>
           </div>
